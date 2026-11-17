@@ -13,10 +13,10 @@ Test-set performance, 4-task model (AmsterdamUMCdb, 2,644 Sepsis-3 admissions):
 | Task | LSTM | MOMENT (frozen) |
 |---|---|---|
 | Mortality (AUROC) | 0.69 | 0.64 |
-| RRT (AUROC) | 0.75 | 0.75 |
+| RRT (Renal Replacament Therapy) (AUROC) | 0.75 | 0.75 |
 | Length of stay (MSE) | 48 | 14.4 |
 
-MV is left out of the table. About 98% of windows are positive in this cohort, so the AUROC isn't a meaningful comparison.
+Mechanical Ventilation (MV) is left out of the table. About 98% of windows are positive in this cohort, so the AUROC isn't a meaningful comparison.
 
 Clustering (window-level K-means on validation embeddings):
 
